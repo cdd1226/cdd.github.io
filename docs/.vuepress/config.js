@@ -1,6 +1,6 @@
 module.exports = {
-  dest: '../../jasonandjay.github.com/study',
-  base: '/study/',
+  dest: 'docs',
+  base: '/',
   markdown: {
     toc: { includeLevel: [2, 3] }
   },
@@ -12,7 +12,7 @@ module.exports = {
     }
   },
   head: [
-    ['link', { rel: 'icon', href: `/logo.png` }],
+    ['link', { rel: 'icon', href: `/logo.jpg` }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
@@ -47,6 +47,14 @@ module.exports = {
               { text: '移动端兼容问题', link: '/zh/standard/Compatibility.md'}
             ],
           },
+          {
+            text: '新知识点12',
+            items: [
+              { text: 'div', link: '/zh/div/div.md' }
+        
+            ]
+          },
+         
           {
             text: '知名公司面试题',
             items: [
